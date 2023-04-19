@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Text?>
+
+<HBox fx:controller="org.openjfx.CountController" xmlns:fx="https://javafx.com/fxml">
+    <children>
+        <Text fx:id="currentCount"/>
+        <Button onAction="#increment">Count</Button>
+    </children>
+</HBox>
